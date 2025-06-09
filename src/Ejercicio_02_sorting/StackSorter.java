@@ -22,4 +22,8 @@ public class StackSorter {
             stack.push(aux.pop());
         }
     }
+    public static void printStack(Stack<Integer> stack) {
+        System.out.println(" "+stack);
+    }
+
 }

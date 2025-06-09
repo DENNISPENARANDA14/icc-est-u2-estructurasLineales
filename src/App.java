@@ -97,8 +97,10 @@ public class App {
     stack.push(4);
     stack.push(2);
 
-    System.out.println("Pila antes de ordenar: " + stack);
+    System.out.println("Pila antes de ordenar: ");
+    StackSorter.printStack(stack);
     StackSorter.sortStack(stack);
-    System.out.println("Stack después de ordenar: " + stack);
+    System.out.println("Stack después de ordenar: ");
+    StackSorter.printStack(stack);
    }
 }
